@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -44,13 +44,17 @@ p {
 
 .avatar {
     background-color: aqua;
-    height: 90px;
-    width: 90px;
+    height: 110px;
+    width: 110px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
 /* -----OVERLAY----- */
+
+.hidden {
+    display: none;
+}
 
 .overlay {
 position: absolute;
